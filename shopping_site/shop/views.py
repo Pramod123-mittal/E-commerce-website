@@ -11,7 +11,7 @@ def about(request):
 def contact(request):
     return HttpResponse('we are at contact page')
 def tracker(request):
-    return HttpResponse('we are at tracker page')
+    return HttpResponse('we are at trackering  page and checking github updates')
 def search(request):
     return render(request,'shop/index.html')
 def productView(request):
