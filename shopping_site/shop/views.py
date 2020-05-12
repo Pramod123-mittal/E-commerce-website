@@ -17,4 +17,4 @@ def search(request):
 def productView(request):
     return HttpResponse('we are at product view page')
 def checkout(request):
-    return HttpResponse('we are at checkout page')
+    return HttpResponse('we are at checkout page and checking edititng in github')
